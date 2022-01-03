@@ -1,0 +1,63 @@
+body
+{
+    background-color: aliceblue;
+}
+
+div.outer-container
+{
+    background-color: cadetblue;
+    height:400px;
+    width:300px;
+    position: relative;
+    margin: auto;
+/*    max-width: 100%;*/
+}
+
+div.inner-container
+{
+    background-color:aliceblue;
+    height:300px;
+    width:200px;
+    width:80%;
+    height:80%;
+    left:10%;
+    top:9%;
+    position: absolute;
+    padding-bottom: 15px;
+}
+ 
+div.notification-title
+{
+    background-color:darkslategrey;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 30px;
+    word-spacing: 20px;
+    display: flex;
+}
+
+div.notification-title > div
+{
+    padding:15px;
+}
+
+div.notifactions{
+    background-color:darkkhaki;
+    color: aliceblue;
+    font-family:;
+    padding: 10px 10px 10px 30px;
+    word-spacing: 20px;
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+div.notifications > div
+{
+    padding: 17px;
+    padding-bottom: 20px;
+}
+
+div.notifications.small
+{
+    font-style: italic;
+}
